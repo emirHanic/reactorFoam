@@ -84,8 +84,6 @@
                 upwind<scalar>(mesh, phiCN)
             ).fvmDiv(phiCN, alpha1)
           + lambda*alpha1
-          ==
-            fvModels.source(alpha1)
         );
 
         if (divU.valid())
