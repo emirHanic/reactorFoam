@@ -5,7 +5,7 @@
     }
     else
     {
-        rAU = 1.0/UEqn.A();/Users/ehanic/openfoam/ehanic-10/applications/solvers/reactorFoam/reactorFoam.C
+        rAU = 1.0/UEqn.A();
     }
 
     surfaceScalarField rAUf("rAUf", fvc::interpolate(rAU()));

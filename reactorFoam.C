@@ -47,7 +47,7 @@ Description
 #include "pressureReference.H"
 #include "fvModels.H"
 #include "fvConstraints.H"
-#include "CorrectPhi.H"
+#include <CorrectPhi.H> //CODE Worked before on docker with mac with #include "CorrectPhi.H" but I had to change it to this to compile
 #include "fvcSmooth.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
